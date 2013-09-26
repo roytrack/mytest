@@ -1,0 +1,40 @@
+
+body,html{ margin:0; padding:0; width:100%; height:100%; font-size:12px; font:tahoma,Arial, Helvetica, sans-serif, "宋体"}
+div,input,a,ul,li,span{ padding:0; margin:0;}
+
+
+.space{ line-height:0; clear:both;}
+.contionPart input{ vertical-align:middle !important; vertical-align: text-bottom;}
+.contionPart label{ vertical-align:middle}
+.rootPart{overflow:hidden; padding:5px;}
+.rootPart span{float:left}
+a.saveBtn{ line-height:2em; display:block; float:right; background:url(../images/saveBtnImg.gif) no-repeat center left; padding-left:20px; color:#9b9a9a; text-decoration:underline}
+a.saveBtn:hover{line-height:2em; display:block; float:right; background:url(../images/saveBtnImgH.gif) no-repeat center left; padding-left:20px; color:#4c4c4c; text-decoration:none}
+
+
+/*----------------levelPart--------------------*/
+.levelPart{overflow:hidden; padding-left:20px; clear:both}
+.levelCs1{overflow:hidden; background-color:#f3f7fd; padding:5px !important; padding:2px; margin-bottom:3px; clear:left;}
+.levelCS2{overflow:hidden; background-color:#f7f7f7; padding:5px !important; padding:2px; clear:left;}
+.levelCS2 div.levelTitel{height:25px; overflow:hidden; background-color:#f7f7f7}
+
+
+/*---------- Level2Part ----------------------*/
+.Level2Part{ overflow:hidden; padding-left:20px;}
+.Level2Part ul,li{ float:left;}
+.Level2Part span{ width:100px; background-color:#e4e3e3; padding:5px;}
+
+
+
+/*---------------LeveLCom---------------*/
+.levelTitel{height:25px; overflow:hidden; background-color:#f3f7fd}
+.levelPartList{ overflow:hidden;padding:0px 20px; padding-bottom:5px;  clear:left;}
+.LevelPartTab{height:19px;overflow:hidden; padding:5px 5px 5px 0;}
+.LevelPartTab span{padding:1%;background-color:#e4e3e3; margin-right:2px;}
+.LevelPartTab span.activePart{ background-color:#ced9e9;}
+.subLevelPart{ overflow:hidden; width:100%;pdding:1% 0%;}
+.levelPartMain{overflow:hidden; background-color:#ced9e9;}
+.levelPartUn{ float:left; width:21%; overflow:hidden; padding:0.7% 1%;}
+.levelPartLineUn{ float:left; width:98%;padding:0.7% 1%;}
+.levelPartSub{ padding:0.5% 1%; overflow:hidden; width:98%; clear:left; background:url(../images/levtTopImg.gif) no-repeat left top}
+.levelPartSubList{ width:100%; background-color:#f3f7fd; overflow:hidden;}

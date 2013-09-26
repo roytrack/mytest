@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+  <head>
+    <title>noInvalidNumber.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+    <script type="text/javascript" src="../js/jquery-1.7.2.js"></script>
+<script type="text/javascript">
+ $().ready(function(){
+ $('#aa').keyup(function(event){
+ var value =  $(event.target).val(); 
+var length=value.length; 
+var tmpDotCount=0;
+
+if(value.indexOf(".") > 0&&value.toString().split(".")[1].length>1){
+$(event.target).val(value.substring(0, value.indexOf(".")+3));
+} 
+ });
+ 
+ $('#aa').click(function(){
+ alert(11);
+ });
+ });
+ 
+function clearCharector(obj,event){ 
+var value = obj.value; 
+var length=value.length; 
+var tmpDotCount=0;
+ 
+if(value.indexOf(".") > 0&&value.toString().split(".")[1].length>1){
+tmpvalue=value.substring(0, value.indexOf(".")+3);
+}else if(value.indexOf(".") > 0&&value.toString().split(".")[1].length==0){
+tmpvalue=value.substring(0, value.indexOf("."));
+} 
+obj.value=tmpvalue;
+  } 
+  
+
+
+</script>
+  </head>
+  
+  <body>
+    This is my HTML page. <br>
+    <input id="aa" type="text"   />
+  </body>
+</html>
