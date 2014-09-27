@@ -1,0 +1,4 @@
+roy is a good boy.
+:wq
+ls
+
