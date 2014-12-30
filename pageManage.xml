@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<!--主页面显示name 
+leafid是按照级别1-2-2-2来定义的
+对于删除，不要改变下面节点的编号，只管往后排就行
+根节点pagemanage有一个属性sync 这个属性是用来控制是否进行同步的，
+为0的时候就同步，为1的时候说明同步过了，不再进行同步。
+-->
+<PageManage leafid="0" name="根目录"   show="true"  sync="0" > 
+  <cw leafid="1" name="财务系统" show="true"> 
+    <pzgl leafid="101" name="凭证管理" show="true"> 
+      <leaf leafid="10101" name="凭证录入" show="true"/>  
+      <leaf leafid="10102" name="凭证查询" show="true"/>  
+      <leaf leafid="10103" name="检查凭证" show="true"/>  
+      <leaf leafid="10104" name="凭证汇总" show="true"/>  
+      <leaf leafid="10105" name="凭证汇集" show="true"/>  
+      <leaf leafid="10106" name="凭证打印" show="true"/>  
+      <leaf leafid="10107" name="审核凭证" show="true"/> 
+    </pzgl>  
+    <zwcl leafid="102" name="账务处理" show="true"> 
+      <leaf leafid="10201" name="登    账" show="true"/>  
+      <leaf leafid="10202" name="结    账" show="true"/> 
+    </zwcl>  
+    <zbgl leafid="103" name="账簿管理" show="true"> 
+      <leaf leafid="10301" name="普通账薄" show="true"/>  
+      <leaf leafid="10302" name="日记账薄" show="true"/>  
+      <leaf leafid="10303" name="明细科目账薄" show="true"/> 
+    </zbgl>  
+    <bbgl leafid="104" name="报表管理" show="true"> 
+      <leaf leafid="10401" name="账务报表" show="true"/>  
+      <leaf leafid="10402" name="余额报表" show="true"/>  
+      <leaf leafid="10403" name="区间余额报表" show="true"/> 
+    </bbgl>  
+    <zwsz leafid="105" name="账务设置" show="true"> 
+      <leaf leafid="10501" name="套账设置" show="true"/>  
+      <leaf leafid="10502" name="科目设置" show="true"/>  
+      <leaf leafid="10503" name="摘 要 库" show="true"/>  
+      <leaf leafid="10504" name="币种设置" show="true"/>  
+      <leaf leafid="10505" name="科目期初数" show="true"/> 
+    </zwsz>  
+    <xtgl leafid="106" name="系统管理" show="true"> 
+      <leaf leafid="10601" name="套账管理" show="true"/>  
+      <leaf leafid="10602" name="权限管理" show="true"/>  
+      <leaf leafid="10603" name="角色管理" show="true"/>  
+      <leaf leafid="10604" name="日志管理" show="true"/>  
+      <leaf leafid="10605" name="在线用户管理" show="true"/>  
+      <leaf leafid="10606" name="修改密码" show="true"/>  
+      <leaf leafid="10607" name="转到估值" show="true"/>  
+      <leaf leafid="10608" name="自动登账设定" show="true"/>  
+      <leaf leafid="10609" name="反结账表备份" show="true"/>  
+      <leaf leafid="10610" name="套账复核管理" show="true"/>  
+      <leaf leafid="10612" name="保险清算系统" show="true"/> 
+    </xtgl> 
+  </cw>  
+  <bx leafid="2" name="估值系统" show="true"> 
+    <sjwhgl leafid="201" name="数据维护管理" show="true"> 
+      <leaf leafid="20101" name="基本信息设定" show="true"> 
+        <microleaf leafid="2010101" name="基本参数设定" show="true"/>  
+        <microleaf leafid="2010102" name="股东代码设定" show="true"/>  
+        <microleaf leafid="2010103" name="托管账户设定" show="true"/>  
+        <microleaf leafid="2010104" name="交易席位设定" show="true"/>  
+        <microleaf leafid="2010105" name="券商佣金费率" show="true"/>  
+        <microleaf leafid="2010106" name="特殊科目设定" show="true"/>  
+        <microleaf leafid="2010107" name="头寸科目设定" show="true"/>  
+        <microleaf leafid="2010108" name="外围系统设定" show="true"/>  
+        <microleaf leafid="2010109" name="系统背景和标题设定" show="true"/>  
+        <microleaf leafid="2010110" name="套账对应维护" show="true"/>  
+        <microleaf leafid="2010111" name="客户信息维护" show="true"/>  
+        <microleaf leafid="2010112" name="科目映射关系" show="true"/>  
+        <microleaf leafid="2010113" name="TA参数设置" show="true"/>  
+        <microleaf leafid="2010114" name="TA特殊设定" show="true"/>  
+        <microleaf leafid="2010115" name="清算核算科目联动设置" show="true"/>  
+        <microleaf leafid="2010116" name="GCS账户信息" show="true"/>  
+        <microleaf leafid="2010117" name="GCS核算科目联动设置" show="true"/>  
+        <microleaf leafid="2010118" name="GCS科目对应关系设置" show="true"/>  
+        <microleaf leafid="2010119" name="GCS数据接收设置" show="true"/>  
+        <microleaf leafid="2010120" name="统计参数维护" show="true"/>  
+        <microleaf leafid="2010121" name="资金账户信息设定" show="true"/> 
+      </leaf>  
+      <leaf leafid="20102" name="公用信息设定" show="true"> 
+        <microleaf leafid="2010201" name="证券交易费率" show="true"/>  
+        <microleaf leafid="2010202" name="回购品种信息" show="true"/>  
+        <microleaf leafid="2010203" name="债券品种信息" show="true"/>  
+        <microleaf leafid="2010204" name="股票品种信息" show="true"/>  
+        <microleaf leafid="2010205" name="香港股票品种信息" show="true"/>  
+        <microleaf leafid="2010206" name="基金品种信息" show="true"/>  
+        <microleaf leafid="2010207" name="权证品种信息" show="true"/>  
+        <microleaf leafid="2010208" name="开放式基金信息" show="true"/>  
+        <microleaf leafid="2010209" name="交易所设置" show="true"/>  
+        <microleaf leafid="2010210" name="年度假日设定" show="true"/>  
+        <microleaf leafid="2010211" name="场外行情维护" show="true"/>  
+        <microleaf leafid="2010212" name="币种汇率设定" show="true"/>  
+        <microleaf leafid="2010213" name="投资经理维护" show="true"/>  
+        <microleaf leafid="2010214" name="风险金维护" show="true"/>  
+        <microleaf leafid="2010215" name="到期提醒设定" show="true"/>  
+        <microleaf leafid="2010216" name="多市场相同证券信息维护" show="true"/>  
+        <microleaf leafid="2010217" name="往来账户信息设定" show="true"/>  
+        <microleaf leafid="2010218" name="投资产品信息" show="true"/>  
+        <microleaf leafid="2010219" name="银行间交易费率" show="true"/>  
+        <microleaf leafid="2010220" name="股指期货合约信息维护" show="true"/>  
+        <microleaf leafid="2010221" name="总分套账设定" show="true"/>  
+        <microleaf leafid="2010222" name="特殊行情处理" show="true"/>  
+        <microleaf leafid="2010223" name="利率合约估值价格维护" show="true"/>  
+        <microleaf leafid="2010224" name="分级基金代码维护" show="true"/>  
+        <microleaf leafid="2010225" name="按品种结转清算款设置" show="true"/>  
+        <microleaf leafid="2010226" name="对手方信息维护" show="true"/>  
+        <microleaf leafid="2010227" name="保监会数据字典" show="true"/>  
+        <microleaf leafid="2010228" name="ETF基金信息" show="true"/> 
+      </leaf>  
+      <leaf leafid="20103" name="权益数据维护" show="true"> 
+        <microleaf leafid="2010301" name="送股权益" show="true"/>  
+        <microleaf leafid="2010302" name="配股权益" show="true"/>  
+        <microleaf leafid="2010303" name="派息权益" show="true"/>  
+        <microleaf leafid="2010304" name="拆分权益" show="true"/> 
+      </leaf>  
+      <leaf leafid="20104" name="其他信息" show="true"> 
+        <microleaf leafid="2010401" name="股东账户期初数" show="true"/>  
+        <microleaf leafid="2010402" name="指数信息维护" show="true"/>  
+        <microleaf leafid="2010403" name="债券信息维护" show="true"/> 
+      </leaf> 
+    </sjwhgl>  
+    <jksjgl leafid="202" name="接口数据管理" show="true"> 
+      <leaf leafid="20201" name="交易数据上传" show="true"/>  
+      <leaf leafid="20202" name="后台数据上传" show="true"/>  
+      <leaf leafid="20203" name="交易数据处理" show="true"/>  
+      <leaf leafid="20204" name="清算数据维护" show="true"/>  
+      <leaf leafid="20205" name="文件前缀设定" show="true"/>  
+      <leaf leafid="20206" name="建行数据上传" show="true"/>  
+      <leaf leafid="20207" name="资讯数据上传" show="true"/>  
+      <leaf leafid="20208" name="TA数据上传" show="true"/>  
+      <leaf leafid="20209" name="标准数据上传" show="true"/>  
+      <leaf leafid="20210" name="标准数据上传(后台)" show="true"/>  
+      <leaf leafid="20211" name="定制数据接口" show="true"> 
+        <microleaf leafid="2021101" name="香港交易数据" show="true"/>  
+        <microleaf leafid="2021102" name="恒生清算数据" show="true"/>  
+        <microleaf leafid="2021103" name="实体银行数据上传" show="true"/>  
+        <microleaf leafid="2021104" name="银行间债券数据上传" show="true"/>  
+        <microleaf leafid="2021105" name="资产净值导出" show="true"/>  
+        <microleaf leafid="2021106" name="外部余额数据上传" show="true"/>  
+        <microleaf leafid="2021107" name="全托管TA数据上传" show="true"/>  
+        <microleaf leafid="2021108" name="全托管TA代码维护" show="true"/>  
+        <microleaf leafid="2021109" name="海尔纽约保费接口" show="true"/>  
+        <microleaf leafid="2021110" name="CAS数据接口" show="true"/>  
+        <microleaf leafid="2021111" name="路透权益数据上传" show="true"/>  
+        <microleaf leafid="2021112" name="路透行情数据上传" show="true"/>  
+        <microleaf leafid="2021113" name="中宏行情数据上传" show="true"/>  
+        <microleaf leafid="2021114" name="花旗交易数据上传" show="true"/>  
+        <microleaf leafid="2021115" name="农行开放式基金业务导入" show="true"/>  
+        <microleaf leafid="2021116" name="国泰人寿保费接口" show="true"/>  
+        <microleaf leafid="2021117" name="长生人寿活期存款保单质押贷款" show="true"/>  
+        <microleaf leafid="2021118" name="长生人寿凭证上传" show="true"/>  
+        <microleaf leafid="2021119" name="国泰人寿交易数据接口" show="true"/>  
+        <microleaf leafid="2021120" name="花旗行情数据上传" show="true"/> 
+      </leaf>  
+      <leaf leafid="20212" name="前台数据上传" show="true"> 
+        <microleaf leafid="2021201" name="数据上传" show="true"/>  
+        <microleaf leafid="2021202" name="申请编号上传" show="true"/>  
+        <microleaf leafid="2021203" name="瑞泰数据上传" show="true"/>  
+        <microleaf leafid="2021204" name="泰康资金进出数据上传" show="true"/>  
+        <microleaf leafid="2021205" name="网下新股中签数据上传" show="true"/>  
+        <microleaf leafid="2021206" name="开放式基金上传" show="true"/> 
+      </leaf>  
+      <leaf leafid="20213" name="导出标准数据" show="true"/>  
+      <leaf leafid="20214" name="估值数据上传" show="true"/>  
+      <leaf leafid="20215" name="财汇聚源核对" show="true"> 
+        <microleaf leafid="2021501" name="浮息债券核对" show="true"/>  
+        <microleaf leafid="2021502" name="债券品种信息核对" show="true"/>  
+        <microleaf leafid="2021503" name="股票品种信息核对" show="true"/>  
+        <microleaf leafid="2021504" name="权益信息核对" show="true"/>  
+        <microleaf leafid="2021505" name="新股核对" show="true"/> 
+      </leaf>  
+      <leaf leafid="20216" name="API接口数据" show="true"> 
+        <microleaf leafid="2021601" name="传统API数据处理" show="true"/>  
+        <microleaf leafid="2021602" name="软开API据处理" show="true"/> 
+      </leaf>  
+      <leaf leafid="20217" name="通用上传接口" show="true"/>  
+      <leaf leafid="20218" name="行情数据" show="true"/>  
+      <leaf leafid="20219" name="转债期权数据" show="true"/>  
+      <leaf leafid="20220" name="公司总账接口" show="true"> 
+        <microleaf leafid="2022001" name="Oracle" show="true"/>  
+        <microleaf leafid="2022002" name="中科软" show="true"/>  
+        <microleaf leafid="2022003" name="Ora总账接口(阳光)" show="true"/>  
+        <microleaf leafid="2022004" name="Sun(Ora)" show="true"/>  
+        <microleaf leafid="2022005" name="用友" show="true"/>  
+        <microleaf leafid="2022006" name="英大财险用友总账接口" show="true"/>  
+        <microleaf leafid="2022007" name="SAP" show="true"/>  
+        <microleaf leafid="2022008" name="oracle(直取)" show="true"/>  
+        <microleaf leafid="2022009" name="总账接口(华泰财险)" show="true"/>  
+        <microleaf leafid="2022010" name="总账接口(华泰人寿)" show="true"/>  
+        <microleaf leafid="2022011" name="总账接口(中煤财险)" show="true"/>  
+        <microleaf leafid="2022012" name="总账接口(英大人寿SAP)" show="true"/>  
+        <microleaf leafid="2022013" name="总账接口(正德人寿)" show="true"/>  
+        <microleaf leafid="2022014" name="总账接口(招商信诺)" show="true"/>  
+        <microleaf leafid="2022015" name="总账接口(深圳华安)" show="true"/>  
+        <microleaf leafid="2022016" name="总账接口(民生)" show="true"/>  
+        <microleaf leafid="2022017" name="总账接口(生命保险)" show="true"/>  
+        <microleaf leafid="2022018" name="总账接口(百年人寿)" show="true"/>  
+        <microleaf leafid="2022019" name="总账接口(英大财险SAP)" show="true"/>  
+        <microleaf leafid="2022020" name="总账接口(华夏人寿)" show="true"/>  
+        <microleaf leafid="2022021" name="总账接口(渤海财险)" show="true"/>  
+        <microleaf leafid="2022022" name="总账接口(国泰人寿)" show="true"/>  
+        <microleaf leafid="2022023" name="总账接口(中新大东方)" show="true"/>  
+        <microleaf leafid="2022024" name="总账接口(安信农业保险)" show="true"/>  
+        <microleaf leafid="2022025" name="总账接口(幸福人寿)" show="true"/>  
+        <microleaf leafid="2022026" name="总账接口(信达财险SAP)" show="true"/>  
+        <microleaf leafid="2022027" name="总账接口(华农财险)" show="true"/>  
+        <microleaf leafid="2022028" name="总账接口(鑫安保险)" show="true"/> 
+        <microleaf leafid="2022029" name="总账接口(紫金财险)" show="true"/> 
+      </leaf>  
+      <leaf leafid="20221" name="交易数据核对" show="true"> 
+        <microleaf leafid="2022101" name="上海过户库核对" show="true"/>  
+        <microleaf leafid="2022102" name="深圳回报库核对" show="true"/>  
+        <microleaf leafid="2022103" name="深圳股份库核对" show="true"/>  
+        <microleaf leafid="2022104" name="深交所发行库核对" show="true"/>  
+        <microleaf leafid="2022105" name="上海大宗交易库核对" show="true"/> 
+      </leaf>  
+      <leaf leafid="20222" name="总分账户交易数据上传" show="true"/> 
+    </jksjgl>  
+    <ywpzgl leafid="203" name="业务凭证管理" show="true"> 
+      <leaf leafid="20301" name="综合业务设定" show="true"> 
+        <microleaf leafid="2030101" name="银行计息设定" show="true"/>  
+        <microleaf leafid="2030102" name="计提两费设定" show="true"/>  
+        <microleaf leafid="2030103" name="银行间交易费用设定" show="true"/>  
+        <microleaf leafid="2030104" name="其他设定" show="true"/>  
+        <microleaf leafid="2030105" name="凭证附件张数设定" show="true"/>  
+        <microleaf leafid="2030106" name="初始化凭证类别设定" show="true"/>  
+        <microleaf leafid="2030107" name="按品种计提两费设定" show="true"/>  
+        <microleaf leafid="2030108" name="最低结算备付金" show="true"/>  
+        <microleaf leafid="2030109" name="单笔债券信息维护" show="true"/>  
+        <microleaf leafid="2030110" name="估值表凭证检查设定" show="true"/> 
+      </leaf>  
+      <leaf leafid="20302" name="业务数据维护" show="true"> 
+        <microleaf leafid="2030201" name="存款业务" show="true"/>  
+        <microleaf leafid="2030202" name="银行间债券" show="true"/>  
+        <microleaf leafid="2030203" name="银行间回购" show="true"/>  
+        <microleaf leafid="2030204" name="开放式基金" show="true"/>  
+        <microleaf leafid="2030205" name="基金转换业务" show="true"/>  
+        <microleaf leafid="2030206" name="权益业务" show="true"/>  
+        <microleaf leafid="2030207" name="新股业务" show="true"/>  
+        <microleaf leafid="2030208" name="回售信息维护" show="true"/>  
+        <microleaf leafid="2030209" name="其它债券业务" show="true"/>  
+        <microleaf leafid="2030210" name="预提待摊业务" show="true"/>  
+        <microleaf leafid="2030211" name="减值准备业务" show="true"/>  
+        <microleaf leafid="2030212" name="资金进出管理" show="true"/>  
+        <microleaf leafid="2030213" name="股指期货数据维护" show="true"/>  
+        <microleaf leafid="2030214" name="利多多通知存款业务" show="true"/>  
+        <microleaf leafid="2030215" name="金融资产重分类" show="true"/>  
+        <microleaf leafid="2030216" name="利率互换" show="true"/>  
+        <microleaf leafid="2030217" name="现金流检查" show="true"/>  
+        <microleaf leafid="2030218" name="保费数据" show="true"/>  
+        <microleaf leafid="2030219" name="GCS划款指令浏览" show="true"/>  
+        <microleaf leafid="2030220" name="划款指令管理" show="true"/>  
+        <microleaf leafid="2030221" name="临时账簿" show="true"/>  
+        <microleaf leafid="2030222" name="资产置换" show="true"/>  
+        <microleaf leafid="2030223" name="现券业务" show="true"/>  
+        <microleaf leafid="2030224" name="场外ETF认购业务" show="true"/>  
+        <microleaf leafid="2030225" name="融资融券业务" show="true"/> 
+      </leaf>  
+      <leaf leafid="20303" name="QDII数据维护" show="true"> 
+        <microleaf leafid="2030301" name="外汇数据维护" show="true"/>  
+        <microleaf leafid="2030302" name="QDII清算数据维护" show="true"/> 
+      </leaf>  
+      <leaf leafid="20304" name="生成业务凭证" show="true"/> 
+    </ywpzgl>  
+    <zhbbgl leafid="204" name="综合报表管理" show="true"> 
+      <leaf leafid="20401" name="估值管理" show="true"> 
+        <microleaf leafid="2040101" name="资产估值表(投连)" show="true"/>  
+        <microleaf leafid="2040102" name="资产估值表(国际)" show="true"/>  
+        <microleaf leafid="2040103" name="资产估值表" show="true"/>  
+        <microleaf leafid="2040104" name="辅助估值表" show="true"/>  
+        <microleaf leafid="2040105" name="估值表核对" show="true"/>  
+        <microleaf leafid="2040106" name="科目汇总余额表" show="true"/>  
+        <microleaf leafid="2040107" name="多币种科目汇总余额表" show="true"/>  
+        <microleaf leafid="2040108" name="每日管理托管费表" show="true"/>  
+        <microleaf leafid="2040109" name="每日数据对账表" show="true"/>  
+        <microleaf leafid="2040110" name="委托资产托管费划拨表" show="true"/>  
+        <microleaf leafid="2040111" name="多组合单位净值表" show="true"/>  
+        <microleaf leafid="2040112" name="交易成交明细表" show="true"/>  
+        <microleaf leafid="2040113" name="交易成交明细表(农行)" show="true"/>  
+        <microleaf leafid="2040114" name="交易统计表" show="true"/>  
+        <microleaf leafid="2040115" name="交易对手统计表" show="true"/>  
+        <microleaf leafid="2040116" name="基金单位变化表" show="true"/>  
+        <microleaf leafid="2040117" name="中行划款指令" show="true"/>  
+        <microleaf leafid="2040118" name="工行划款指令" show="true"/>  
+        <microleaf leafid="2040119" name="委托资产资金头寸表" show="true"/>  
+        <microleaf leafid="2040120" name="台账报表" show="true"/>  
+        <microleaf leafid="2040121" name="可用头寸表" show="true"/>  
+        <microleaf leafid="2040122" name="净资产变动表" show="true"/>  
+        <microleaf leafid="2040123" name="股指期货台账维护" show="true"/> 
+      </leaf>  
+      <leaf leafid="20402" name="辅助报表" show="true"> 
+        <microleaf leafid="2040201" name="交易轧差汇总表" show="true"/>  
+        <microleaf leafid="2040202" name="交易轧差明细表" show="true"/>  
+        <microleaf leafid="2040203" name="投资持仓成本表" show="true"/>  
+        <microleaf leafid="2040204" name="每日摊销表" show="true"/>  
+        <microleaf leafid="2040205" name="营业税申报表" show="true"/>  
+        <microleaf leafid="2040206" name="营业税差价明细表" show="true"/>  
+        <microleaf leafid="2040207" name="营业税差价明细表_中行" show="true"/>  
+        <microleaf leafid="2040208" name="营业税差价明细表_出口" show="true"/>  
+        <microleaf leafid="2040209" name="股票红利差价明细表" show="true"/>  
+        <microleaf leafid="2040210" name="股票投资日报表" show="true"/>  
+        <microleaf leafid="2040211" name="股票投资板块情况表" show="true"/>  
+        <microleaf leafid="2040212" name="银行存款利息表" show="true"/>  
+        <microleaf leafid="2040213" name="回购到期浏览表" show="true"/>  
+        <microleaf leafid="2040214" name="保险公司新股投资情况表" show="true"/>  
+        <microleaf leafid="2040215" name="收益预测表" show="true"/>  
+        <microleaf leafid="2040216" name="融资交易手续费表" show="true"/>  
+        <microleaf leafid="2040217" name="应付佣金报表" show="true"/>  
+        <microleaf leafid="2040218" name="管理费测算表" show="true"/>  
+        <microleaf leafid="2040219" name="最低结算备付金表" show="true"/>  
+        <microleaf leafid="2040220" name="账面价值明细查询表" show="true"/>  
+        <microleaf leafid="2040221" name="最低结算备付金报表" show="true"/>  
+        <microleaf leafid="2040222" name="开放式基金持仓表" show="true"/>  
+        <microleaf leafid="2040223" name="中宏交易记录表" show="true"/>  
+        <microleaf leafid="2040224" name="资金头寸表" show="true"/>  
+        <microleaf leafid="2040225" name="统计参数报表" show="true"/> 
+      </leaf>  
+      <leaf leafid="20403" name="报表核对" show="true"> 
+        <microleaf leafid="2040301" name="清算调节表" show="true"/>  
+        <microleaf leafid="2040302" name="农行清算调节表" show="true"/>  
+        <microleaf leafid="2040303" name="总分套账调节表" show="true"/>  
+        <microleaf leafid="2040304" name="清算数据核对表" show="true"/>  
+        <microleaf leafid="2040305" name="实体银行自动核对" show="true"/>  
+        <microleaf leafid="2040306" name="保险托管资产规模统计表" show="true"/>  
+        <microleaf leafid="2040307" name="核对估值和余额表" show="true"/>  
+        <microleaf leafid="2040308" name="外部余额对账表" show="true"/>  
+        <microleaf leafid="2040309" name="独立账户资产持有报告" show="true"/>  
+        <microleaf leafid="2040310" name="电子对账表" show="true"/>  
+        <microleaf leafid="2040311" name="估值电子对账表" show="true"/>  
+        <microleaf leafid="2040312" name="收益率估值表(投连)" show="true"/>  
+        <microleaf leafid="2040313" name="收益率估值表" show="true"/>  
+        <microleaf leafid="2040314" name="头寸对账" show="true"/>  
+        <microleaf leafid="2040315" name="资金对账" show="true"/>  
+        <microleaf leafid="2040316" name="深圳资金对账" show="true"/>  
+        <microleaf leafid="2040317" name="权益通知单" show="true"/>  
+        <microleaf leafid="2040318" name="停牌股票调整估值报表" show="true"/>  
+        <microleaf leafid="2040319" name="每日对账数据浏览表" show="true"/>  
+        <microleaf leafid="2040320" name="估值表内部核对" show="true"/>  
+        <microleaf leafid="2040321" name="余额报表内部核对" show="true"/>  
+        <microleaf leafid="2040322" name="估值表余额表自动对账" show="true"/>  
+        <microleaf leafid="2040323" name="GCS持仓核对表" show="true"/> 
+      </leaf>  
+      <leaf leafid="20404" name="投连险报表" show="true"> 
+        <microleaf leafid="2040401" name="净资产评估报告" show="true"/>  
+        <microleaf leafid="2040402" name="净资产评估报告附注表" show="true"/>  
+        <microleaf leafid="2040403" name="每日证券交易报表" show="true"/>  
+        <microleaf leafid="2040404" name="资产负债表" show="true"/>  
+        <microleaf leafid="2040405" name="投资收益月报" show="true"/>  
+        <microleaf leafid="2040406" name="净资产变动月报" show="true"/>  
+        <microleaf leafid="2040407" name="投连账户管理费表" show="true"/>  
+        <microleaf leafid="2040408" name="投连账户对账单" show="true"/> 
+      </leaf> 
+    </zhbbgl>  
+    <xtgl leafid="205" name="系统管理" show="true"> 
+      <leaf leafid="20501" name="权限管理" show="true"/>  
+      <leaf leafid="20502" name="角色管理" show="true"/>  
+      <leaf leafid="20503" name="调整表结构" show="true"/>  
+      <leaf leafid="20504" name="预警明细设置" show="true"/>  
+      <leaf leafid="20505" name="日志管理" show="true"/>  
+      <leaf leafid="20506" name="日志查询" show="true"/>  
+      <leaf leafid="20507" name="修改密码" show="true"/>  
+      <leaf leafid="20508" name="转到财务" show="true"/>  
+      <leaf leafid="20509" name="数据库配置" show="true"/>  
+      <leaf leafid="20510" name="数据同步" show="true"/>  
+      <leaf leafid="20511" name="回归测试" show="true"/>  
+      <leaf leafid="20512" name="许可信息" show="true"/>  
+      <leaf leafid="20513" name="页面设置" show="true"/>  
+      <leaf leafid="20514" name="保险清算系统" show="true"/> 
+    </xtgl> 
+  </bx> 
+</PageManage>

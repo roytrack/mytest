@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<report> 
+  <dataStatistics> 
+    <reportDate> 
+     <beginDate>2012-05-18</beginDate>  
+      <endDate>2012-05-19</endDate>  
+      <today>2012-05-18</today> 
+    </reportDate>  
+    <executeTime> 
+      <beginTime>00:12:12</beginTime>  
+      <endTime>02:30:20</endTime> 
+    </executeTime>  
+    <tableRecord>
+      <table>
+        <tableName>HZJKQSYSS</tableName>
+        <originalTable>10000</originalTable>
+        <tempTable>8000</tempTable>
+      </table>
+      <table>
+        <tableName>A2011001LCLOSE</tableName>
+        <originalTable>10000</originalTable>
+        <tempTable>8000</tempTable>
+      </table>
+    </tableRecord>
+   <exceptionStats>
+      <exception>
+        <exceptionText>java.lang.NullPointerException</exceptionText>
+        <exceptionNo>1</exceptionNo>
+      </exception>
+    </exceptionStats>
+  </dataStatistics>  
+  <ResultInDetail> 
+    <tradeDataElement/>  
+    <voucherElement/>  
+    <valuationTableElement/> 
+  </ResultInDetail> 
+</report>

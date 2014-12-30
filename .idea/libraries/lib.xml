@@ -1,0 +1,67 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/jxl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/spring-security-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.orm-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/spring-security-cas.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.instrument-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/jdom.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.jdbc-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.asm-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/json-lib-2.4-jdk15-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/spring-security-config.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/licinfo1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/msbase.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.oxm-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.context.support-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/licinfo1.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/svnkit-javahl16-1.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/mssqlserver.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/msutil.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/spring-security-taglibs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/spring-security-ldap.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/svnkit-1.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.web.portlet-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.test-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.web-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/mailapi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.core-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.expression-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.web.struts-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/jaxen-1.1-beta-6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/ant-1.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/spring-security-openid.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.beans-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/spring-security-crypto.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.context-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.web.servlet-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/mysql-connector-java-5.1.18-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/svnkit-cli-1.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/json-lib-2.4-jdk15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.instrument.tomcat-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.jms-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.aspects-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/json-lib-2.4-jdk15-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/svnkit-1.7.5-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/oraclejdbc14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/gson-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/spring-security-remoting.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/aa.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.aop-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/webservices-extra.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/spring-security-web.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/svnkit-1.7.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/junit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/sqljdbc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/gson-2.2.4-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/spring-security-acl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/org.springframework.transaction-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcontent/lib/gson-2.2.4-javadoc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,73 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" ></meta>
+<title>Insert title here</title>
+<link rel="StyleSheet" href="dtree.css" type="text/css" ></link>
+	<script type="text/javascript" src="dtree.js"></script>
+	<script language="vbscript" src="../etc/Vbspub.htm"></script>
+	<script language="vbscript">
+Function thelen( target )
+	thelen=len(target)
+End Function
+function ddd
+	ddd="123456789"
+end function
+</script>
+<script type="text/javascript" >
+	function abc(){
+		//alert("@@"+abc.arguments.length);
+		var bb="aad";
+		var cc="esalf";
+		var aa=ddd();
+		window.open('report.html','保险清算系统'); 
+		alert("$$"+aa.length);
+	}
+	alert(abc.length);
+	alert("&&"+thelen(abc()));
+	alert(String(abc));
+	alert(abc());
+	
+	
+	function init(){
+	 d=new dTree("d");
+	d.add(parseint("1"),0,"根目录");
+	tree.innerhtml=d;
+	}
+</script>
+</head>
+<body  >
+
+<div class="dtree">
+
+	<p><a href="javascript: d.openAll();">open all</a> | <a href="javascript: d.closeAll();">close all</a></p>
+
+	<script type="text/javascript">
+
+		d = new dTree('d');
+		d.add(parseInt("0"),-1,'My example tree');
+		d.add(1,0,'Node 1','example01.html');
+		d.add(2,0,'Node 2','example01.html');
+		d.add(3,1,'Node 1.1','example01.html');
+		d.add(4,0,'Node 3','example01.html');
+		d.add(5,3,'Node 1.1.1','example01.html');
+		d.add(6,5,'Node 1.1.1.1','example01.html');
+		d.add(7,0,'Node 4','example01.html');
+		d.add(8,1,'Node 1.2','example01.html');
+		d.add(9,0,'My Pictures','example01.html','Pictures I\'ve taken over the years','','','img/imgfolder.gif');
+		d.add(10,9,'The trip to Iceland','example01.html','Pictures of Gullfoss and Geysir');
+		d.add(11,9,'Mom\'s birthday','example01.html');
+		d.add(12,0,'Recycle Bin','example01.html','','','img/trash.gif');
+		 
+		document.write(d);
+function change(thenumber){
+	var box=document.getElementById("20302");
+	alert(box.checked);
+}
+		 
+	</script>
+
+</div>
+<input type='checkbox'  id="20302" name='showStyle'  checked=true  onclick='change(20302)' >
+<input type='checkbox'  id="20302" name='showStyle'  checked=unchecked  onclick='change(20302)' >
+</body>
+</html>

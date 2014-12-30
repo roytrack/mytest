@@ -1,0 +1,43 @@
+<html>
+<head>
+<script src="../js/jquery-1.8.3.js"></script>
+<script type="text/javascript">
+function ff(){
+alert(">>this is index's js function");
+var aa="<a href='javascript:void(0)' title='填报' onclick='javascript:{window.frames[\"home\"].addNewRow()'>填报</a>";
+
+}
+function gogogo(){
+alert(3333);
+}
+$(function(){
+$('#god').click(function(event){
+//var obj=event.target || event.srcElement;
+var obj=event.target ;
+alert(obj.value);
+});
+$('#myval').blur(function(){
+var thevalue=$('#myval').val();
+alert(thevalue);
+switch (thevalue){
+case "add" :gogogo();
+return;
+}
+});
+
+});
+</script>
+</head>
+<body>
+<div style="background: lightblue;">
+This is index page.
+<input type="button" value="run index's function" onclick="ff();" />
+<input type="button"value="run inner page's function" onclick='window.frames["childPage"].ff();' />
+<a  href='javascript:void(0)' title='填报' onclick="javascript:window.frames[\"childPage\"].addNewRow()">填报</a>
+<input type="button" value="god is a girl"   id="god" />
+
+<input type="text" id="myval"/>
+</div>
+<iframe id="childPage" name="childPage" src="inner.html" width="100%" frameborder="0"></iframe>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<html>
+<head>
+<script type="text/javascript">
+function ff(){
+alert(">>this is inner page's js function");
+}
+</script>
+</head>
+<body>
+<div style="background: lightgreen;">
+This is inner page.
+<input type="button" value="run index's function" onclick='parent.window.ff();' />
+<input type="button" value="run inner page's function" onclick="ff();" />
+</div>
+</body>
+</html>

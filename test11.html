@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<!--<link href="all.css" rel="stylesheet" type="text/css" />  -->
+
+
+<title>测试页面</title>
+<script type="text/javascript">
+
+function bb(){
+/* var reg11=/^\d{1,30}.?\d{1,12}$/;
+var num1="33.55";
+var num2="22";
+var num3="222222222222222222222222222222222222222.122456789";
+alert(reg11.test(num1));
+alert(reg11.test(num2));
+alert(reg11.test(num3)); 
+var regNum15=/^\d{15}$/;
+var regNum17=/^\d{17}$/;
+var num="123456";
+alert(regNum15.test(num));
+function convertToTargetDate(theday){
+	var Year = 0;
+	var Month = 0;
+	var Day = 0;
+	var CurrentDate = "";
+	//初始化时间
+	Year = theday.getFullYear();
+	Month = theday.getMonth()+1;
+	Day = theday.getDate();
+
+	CurrentDate += Year + "-";
+
+	if (Month >= 10 )
+	{
+	CurrentDate += Month + "-";
+	}
+	else
+	{
+	CurrentDate += "0" + Month + "-";
+	}
+	if (Day >= 10 )
+	{
+	CurrentDate += Day ;
+	}
+	else
+	{
+	CurrentDate += "0" + Day ;
+	}
+	return CurrentDate;
+}
+var day=new Date();
+var today=convertToTargetDate(day);
+var now= new Date(today.replace("-",",")).getTime() ;
+alert(now);
+var aaaa="2013-4-1";
+now= new Date(aaaa.replace("-",",")).getTime() ;
+alert(now);
+alert(!testNumberAndLetter("555"));
+var browser=navigator.appName;
+var b_version=navigator.appVersion;
+var version=b_version.split(";");
+for(var i=0;i<version.length;i++)
+alert(version[i]);
+alert(browser);
+alert(b_version);*/
+
+	var browser=navigator.appName;
+	var b_version=navigator.appVersion;
+	var version=b_version.split(";");
+	var trim_version=version[1].replace(/[ ]/g,"");
+	alert(browser);
+	alert(version);
+	alert("trim_version is "+trim_version);
+	if (browser=="Microsoft Internet Explorer"&&trim_version=="MSIE6.0")
+		{
+		var style=document.createElement('link');
+		style.rel='stylesheet';
+		style.style='text/css';
+		style.style='';
+		document.styleSheets[0].herf="allIE.css";
+		alert(document.styleSheets[0].herf);
+		alert("use  ie6");
+		}
+	else 
+		{
+		document.styleSheets[0].herf="all.css";
+		alert(document.styleSheets[0].herf);
+		alert("use not ie6");
+		}
+
+}
+
+
+function testNumberAndLetter(theStr){
+var reg=/^[A-Za-z0-9]+$/;
+return reg.test(theStr);
+
+}
+function lTrimYss(str) {//去左边空格
+	var rtnStr;
+	rtnStr = "";
+	for (var i = 0; i < str.length; i++) {
+		if (str.charAt(i) != " ") {
+			rtnStr = str.substr(i);
+			break;
+		}
+	}
+	return rtnStr;
+}
+function rTrimYss(str) {//去右边空格
+	var rtnStr;
+	rtnStr = "";
+	for (var i = str.length - 1; i >= 0; i--) {
+		if (str.charAt(i) != " ") {
+			rtnStr = str.substring(0, i + 1);
+			break;
+		}
+	}
+	return rtnStr;
+}
+function trimYss(str) {//去两端空格
+	return (lTrimYss(rTrimYss(str)));
+}
+function whatisinput(){
+var a =document.getElementById("rcm");
+alert(a);
+
+if(trimYss(rcm.value).length<=0){
+alert("this is nothing");}
+}
+
+
+</script>
+</head>
+<body onload="aa()">
+<input id ="rcm"  type="text" size="30"  > <button value="确定"   onclick="whatisinput()" >确定</button>
+<script>
+function aa(){
+	var browser=navigator.appName;
+	var b_version=navigator.appVersion;
+	var version=b_version.split(";");
+	var trim_version=version[1].replace(/[ ]/g,"");
+	alert(browser);
+	alert(version);
+	alert("trim_version is "+trim_version);
+	if (browser=="Microsoft Internet Explorer"&&trim_version=="MSIE6.0")
+		{document.styleSheets[0].herf="allIE.css";
+		alert(document.styleSheets[0].herf);
+		alert("use  ie6");}
+	else 
+		{document.styleSheets[0].herf="all.css";
+		alert(document.styleSheets[0].herf);
+		alert("use not ie6");
+		}
+		alert(document.styleSheets[0].herf);
+
+}
+</script>
+</body>
+</html>
