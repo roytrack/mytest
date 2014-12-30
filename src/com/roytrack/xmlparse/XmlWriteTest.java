@@ -1,13 +1,10 @@
-package com.yss.xmlparse;
+package com.roytrack.xmlparse;
 import java.io.BufferedReader;
-import java.io.DataInputStream;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.io.Reader;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -42,12 +39,12 @@ try {
 builder = factory .newDocumentBuilder();
 //Document document = builder.parse(new File("E:\\testFiles\\test.xml"));
 document.normalize();
-/** ½«documentÖÐµÄÄÚÈÝÐ´ÈëÎÄ¼þÖÐ */
+/** ï¿½ï¿½documentï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ */
 TransformerFactory tFactory = TransformerFactory.newInstance();
 Transformer transformer = tFactory.newTransformer();
 transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
 transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-//±àÂë
+//ï¿½ï¿½ï¿½ï¿½
 DOMSource source = new DOMSource(document);
 PrintWriter pw = new PrintWriter(new FileOutputStream(filename));
 StreamResult result = new StreamResult(pw);
@@ -62,11 +59,11 @@ try {
 builder = factory .newDocumentBuilder();
 Document document = builder.parse(new File("E:\\testFiles\\test.xml"));
 Node root = document.getDocumentElement();
-/**Èç¹ûrootÓÐ×ÓÔªËØ*/
+/**ï¿½ï¿½ï¿½rootï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½*/
 if(root.hasChildNodes())
 {
 NodeList ftpnodes = root.getChildNodes();
-/**Ñ­»·È¡µÃftpnodesËùÓÐ½Úµã*/
+/**Ñ­ï¿½ï¿½È¡ï¿½ï¿½ftpnodesï¿½ï¿½ï¿½Ð½Úµï¿½*/
 for(int i=0;i<ftpnodes.getLength();i++)
 {
 Node ftpList = ftpnodes.item(i);

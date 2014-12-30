@@ -1,19 +1,19 @@
-package com.yss.color;
+package com.roytrack.color;
 
 class HexToARGB {
 
 	public static void main(String[] args) {
-		//Ä¿±ê   aabbcf  385ba9
+		//ç›®æ ‡   aabbcf  385ba9
 		//RGB  BGR   cfbbaa   a95b38
 		//13613994   11098936
-		//ÇëÊäÈëRRGGBBÄ£Ê½µÄÑÕÉ«   0   0  128  0     vbÊÇRGB  psÊÇBGR
+		//è¯·è¾“å…¥RRGGBBæ¨¡å¼çš„é¢œè‰²   0   0  128  0     vbæ˜¯RGB  psæ˜¯BGR
 		String color="a95b38";
-		int bb=Integer.valueOf(color, 16); 
-		System.out.println(bb);  //Ê®Áù½øÖÆÑÕÉ«×ªÕûÊý
-		System.out.println((bb>>24)&255);  // alphaÍ¨µÀ
-		System.out.println((bb>>16)&255);  //µÚÒ»Î»ÑÕÉ«
-		System.out.println((bb>>8)&255);  //µÚ¶þÎ»ÑÕÉ«
-		System.out.println((bb>>0)&255);  //µÚÈýÎ»ÑÕÉ«
+		int bb=Integer.valueOf(color, 16);
+		System.out.println(bb);  //åå…­è¿›åˆ¶é¢œè‰²è½¬æ•´æ•°
+		System.out.println((bb>>24)&255);  // alphaé€šé“
+		System.out.println((bb>>16)&255);  //ç¬¬ä¸€ä½é¢œè‰²
+		System.out.println((bb>>8)&255);  //ç¬¬äºŒä½é¢œè‰²
+		System.out.println((bb>>0)&255);  //ç¬¬ä¸‰ä½é¢œè‰²
 //		int a=(bb>>24)&255;
 //		int r=(bb>>16)&255;
 //		int g=(bb>>8)&255;
@@ -33,9 +33,9 @@ class HexToARGB {
 //		System.out.println((0xff<<24)+"@"+(8<<16)+"@"+(0<<8)+"@");
 //		System.out.println(Integer.toHexString(128));
 //		
-		
-	
+
+
 	}
-		
-	
+
+
 }
